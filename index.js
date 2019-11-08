@@ -14,7 +14,7 @@ let ticketNo = 0;
 function takeANumber(katzDeliLine) {
   ticketNo++
   katzDeliLine.push(ticketNo);
-  return ` Welcome, you have ticket number ${ticketNo}.`;
+  return `Welcome, you have ticket number ${ticketNo}.`;
 }
 
 
